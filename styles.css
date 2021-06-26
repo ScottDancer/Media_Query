@@ -1,6 +1,17 @@
-* {
+/* * {
   box-sizing: border-box;
   background-color: #D7F4EB;
-  /* color: #313836; */
+  color: #313836;
+} */
+
+.div {
+  font-weight: bold;
+  font-size: 400%;
+  color: #BC4FD1;
 }
 
+@media (min-width: 800px), (orientation: landscape) {
+  div {
+    color: #D1B364;
+  }
+}
